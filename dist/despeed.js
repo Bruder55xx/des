@@ -10,7 +10,7 @@ const helper_js_1 = require("./utils/helper.js");
 const banner_js_1 = __importDefault(require("./utils/banner.js"));
 import keep_alive from './keep_alive.js';
 keep_alive();
-const INTERVAL = 60 * 60 * 1000;
+const INTERVAL = 120 * 60 * 1000;
 const BASEURL = "https://app.despeed.net";
 async function getCurrentLocation(proxy) {
     const agent = helper_js_1.newAgent(proxy)
