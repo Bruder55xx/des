@@ -5,4 +5,3 @@ export declare function saveToFile(filename: string, data: string): Promise<void
 export declare function readFile(pathFile: string): Promise<string[]>;
 export declare const newAgent: (proxy?: string | null) => SocksProxyAgent | HttpsProxyAgent<string> | null;
 import keep_alive from './keep_alive.js';
-keep_alive();
