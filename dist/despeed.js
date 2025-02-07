@@ -8,7 +8,7 @@ const speed_js_1 = __importDefault(require("./utils/speed.js"));
 const logger_js_1 = __importDefault(require("./utils/logger.js"));
 const helper_js_1 = require("./utils/helper.js");
 const banner_js_1 = __importDefault(require("./utils/banner.js"));
-const keep_alive = require('./keep_alive.js')
+import keep_alive from './keep_alive.js';
 keep_alive();
 const INTERVAL = 120 * 60 * 1000;
 const BASEURL = "https://app.despeed.net";
