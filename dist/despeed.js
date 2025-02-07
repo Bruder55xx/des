@@ -9,7 +9,7 @@ const logger_js_1 = __importDefault(require("./utils/logger.js"));
 const helper_js_1 = require("./utils/helper.js");
 const banner_js_1 = __importDefault(require("./utils/banner.js"));
 
-const INTERVAL = 120 * 60 * 1000;
+const INTERVAL = 60 * 60 * 1000;
 const BASEURL = "https://app.despeed.net";
 async function getCurrentLocation(proxy) {
     const agent = helper_js_1.newAgent(proxy)
